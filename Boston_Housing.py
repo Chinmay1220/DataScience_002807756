@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+!pip install shap
 import shap
 import matplotlib.pyplot as plt
 from sklearn import datasets
