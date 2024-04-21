@@ -10,7 +10,7 @@ try:
     import shap
 except ImportError:
     st.warning("shap library not found. Installing...")
-    !pip install shap
+
     import shap
 
 # Streamlit app title and description
