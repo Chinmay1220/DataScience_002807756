@@ -1,17 +1,10 @@
 import streamlit as st
 import pandas as pd
-import shap
-import matplotlib.pyplot as plt
+
+
 from sklearn import datasets
 from sklearn.ensemble import RandomForestRegressor
 
-# Check if shap is installed, if not, install it
-try:
-    import shap
-except ImportError:
-    st.warning("shap library not found. Installing...")
-
-    import shap
 
 # Streamlit app title and description
 st.write("""
